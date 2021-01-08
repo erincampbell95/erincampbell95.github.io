@@ -18,6 +18,7 @@ a {
     text-decoration: none;
 }
 h1{
+    margin-left: 20px;
     background-color: #F2F2F2;
     padding: 20px;  
     border: 2px solid #F2F2F2;
@@ -25,11 +26,12 @@ h1{
 }
 header,
 footer {
-  padding: 1em;
-  background-color: #F2F2F2;
-  align-items: center;
-  border: 2px solid #F2F2F2;
-  border-radius: 5px;
+    max-width: 560 px;
+    padding: 1em;
+    background-color: #F2F2F2;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    border-radius: 5px;
 }
 nav a {
     color: #6C8DC8;
