@@ -1,5 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat:wght@200&display=swap");
 body{
-    background-image:url("C:/Users/16jlavarnway/Desktop/blah/Background2.png") fixed center;
-    max-width: 760 px;
+    background-color: #FFFFFF;
+    font-size: 1.1em;
+    padding: 1em;
+    max-width: 560 px;
+    margin: auto;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
+li {
+    text-align: left;
+    text-decoration: none;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    background-color: #F2F2F2;
+    padding: 20px;  
+    border: 2px solid #F2F2F2;
+    border-radius: 5px;
+}
+header,
+footer {
+  padding: 1em;
+  background-color: #F2F2F2;
+  align-items: center;
+  border: 2px solid #F2F2F2;
+  border-radius: 5px;
+}
+nav a {
+    color: #6C8DC8;
+}
+img{
+    float: right;
+    box-shadow: 2px 2px 4px #000000;
+}
+a:hover {
+    color: #6C8DC8;
+    font-weight: bold;
+  }
+  a:active {
+    color: #85B1DB;
+  }
+  a:visited {
+    color: #91C3C3;
+  }
+ 
