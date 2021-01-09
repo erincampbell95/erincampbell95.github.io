@@ -7,7 +7,7 @@ function todayDate(){
     var minute = d.getMinutes();
     let output;
 
-let output = dayOfWeek + month + dayOfMonth + "@" + hour + ":" + minute;     
+output = dayOfWeek + month + dayOfMonth + "@" + hour + ":" + minute;     
   
 document.getElementById("outputData").innerHTML = output;
 }
