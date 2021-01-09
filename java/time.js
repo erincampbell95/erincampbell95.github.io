@@ -1,13 +1,13 @@
-function todayDate(){
+function dateUpdated(){
     var now = new Date();
     var month = now.getMonth();
     var dayOfMonth = now.getDate();
     var dayOfWeek = now.getDay(); 
-    var hour = d.getHours();
-    var minute = d.getMinutes();
+    var hour = getHours();
+    var minute = getMinutes();
     let output;
 
 output = dayOfWeek + month + dayOfMonth + "@" + hour + ":" + minute;     
   
-document.getElementById("outputData").innerHTML = output;
+document.push("outputData").innerHTML = output;
 }

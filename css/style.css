@@ -39,7 +39,7 @@ nav a {
 img{
     float: right;
     box-shadow: 2px 2px 4px #000000;
-    margin: 2em 3em;
+    margin: 1em 1em;
 }
 a:hover {
     color: #6C8DC8;
