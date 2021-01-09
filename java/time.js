@@ -1,13 +1,5 @@
 function dateUpdated(){
-    var now = new Date();
-    var month = now.getMonth();
-    var dayOfMonth = now.getDate();
-    var dayOfWeek = now.getDay(); 
-    var hour = getHours();
-    var minute = getMinutes();
-    let output;
-
-output = dayOfWeek + month + dayOfMonth + "@" + hour + ":" + minute;     
+    var output = new Date(document.lastModified);
   
-document.push("outputData").innerHTML = output;
+document.getElementById("outputData").innerHTML = output;
 }
