@@ -1,3 +1,6 @@
-@media screeen and (min-width: 32.5em) {
-    
+@media screeen and (min-width: 481px) {
+    .home-grid{
+        width:100%;
+    }
+
 }
