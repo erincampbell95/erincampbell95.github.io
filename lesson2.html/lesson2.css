@@ -45,4 +45,8 @@ a:visited {
       margin: 20px;
       font-family: "Montserrat", sans-serif;
 }
+img {
+    width: 100%;
+    height: auto;
+}
  
