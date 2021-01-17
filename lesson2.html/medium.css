@@ -1,6 +1,6 @@
 @media screeen and (min-width: 481px) {
     .home-grid{
-        width:100%;
+        grid-template-columns: 1fr 1fr;
     }
     img {
         width: 100%;
