@@ -60,6 +60,9 @@ a:visited {
       color:#A7A7A7;
       text-align: center;
 }
+figcaption{
+    text-align:left;
+}
 img {
     width: 100%;
     height: auto;
