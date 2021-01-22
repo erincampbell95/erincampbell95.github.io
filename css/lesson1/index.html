@@ -7,12 +7,15 @@
   <meta name="description" content="Assignment portal for Erin Campbell in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css" /> 
+  <link rel="stylesheet" href="style.css" /> 
   <link rel="stylesheet" media="screen and (min-width: 32.5em)" href="medium.css">
  </head>
 
- <body onload="dateUpdated()">
-  <script src="java/time.js"></script>
+ <body>
+
+ <script src="javascript/currentYear.js"></script>
+ <script src="javascript/lastUpdate.js"></script>
+
   <header>
    <img src="https://cdn.glitch.com/0dc956a8-2122-45a2-b396-ea5d68d50f72%2FCampbell_0008%20(2).jpg?v=1610074074994" alt="picture of myself" height="200" width="160">
    <h1>Erin Campbell</h1>
@@ -37,9 +40,9 @@
    </nav>
 
  <footer>
-   &copy; <span id="copyRightYear"></span> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+   &copy; <span id="currentYear"></span> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
    <div>
-     Last updated: <div id="outputData"></div> 
+     Last updated: <span id="lastUpdate"></span>
    </div>
  </footer>
 

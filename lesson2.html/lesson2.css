@@ -10,7 +10,7 @@ body{
 p{
     line-height: 25px;
 }
-a{
+a {
     text-decoration: none;
 }
 h2,
@@ -27,7 +27,7 @@ footer {
     border-radius: 5px;
 }
 .footer{
-    margin-top:80px;
+    margin-top:40px;
 }
 .title{
     padding: 1em;
@@ -40,7 +40,7 @@ a{
     margin-left:40px;
 }
 nav a {
-    background-color: #2E294E;
+    color: #2E294E;
 }
 a:hover {
     color: #6C8DC8;

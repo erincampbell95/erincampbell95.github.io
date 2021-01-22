@@ -13,8 +13,7 @@
     <link rel="stylesheet" media="screen and (min-width: 769px)" href="large.css">
 </head>
 
-<body onload="dateUpdated()">
-    <script src="java/time.js"></script>
+<body>
 
     <header>
         <h1 class="title">
@@ -79,11 +78,14 @@
     </main>
 
     <footer>
-        &copy; <span id="copyRightYear"></span> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        &copy; <span id="currentYear"></span>  | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
         <div>
-          Last updated: <div id="outputData"></div> 
+          Last updated: <span id="lastUpdate"></span>
         </div>  
     </footer>
+
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/lastUpdate.js"></script>
 
 </body>
 </html>
