@@ -10,8 +10,14 @@ body{
 p{
     line-height: 25px;
 }
+
 a{
     text-decoration: none;
+}
+.external-link-1,
+.external-link-2,
+.external-link-3{
+    margin-left: 40px;
 }
 h2,
 a{
@@ -26,8 +32,8 @@ footer {
     border: 2px solid #F2F2F2;
     border-radius: 5px;
 }
-.footer{
-    margin-top:80px;
+footer{
+    margin-top:30px;
 }
 .title{
     padding: 1em;
@@ -36,21 +42,18 @@ footer {
 .heading-1{
     margin-top:30px;
 }
-a{
-    margin-left:40px;
-}
 nav a {
-    background-color: #2E294E;
+    align-items: center;
 }
 a:hover {
-    color: #6C8DC8;
+    color: #343A40;
     font-weight: bold;
 }
 a:active {
-    color: #85B1DB;
+    color: #F8F9FA;
 }
 a:visited {
-    color: #91C3C3;
+    color: #495057;
 }
 .links{
       display: inline;

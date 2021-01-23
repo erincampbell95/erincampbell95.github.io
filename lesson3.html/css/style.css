@@ -22,7 +22,8 @@ nav ul {
 	overflow: hidden;
 }
 nav ul li a {
-	display: block;
+    display: block;
+    margin: auto;
 	color: #fff;
 	text-align: center;
 	padding: 0.75rem;
@@ -30,21 +31,20 @@ nav ul li a {
 	font-size: 0.95rem;
 }
 a{
-    margin-left:40px;
     text-decoration: none;
     display: inline;
     color: #ffffff;
     text-align: center;
 }
 nav a {
-    color: #2E294E;
+    color: #ffffff;
 }
 a:hover {
     background-color: #0077B6;
     font-weight: bold;
 }
 a:active {
-    color: #ffffff;
+    background-color: #90E0EF;
 }
 a:visited {
     color: #91C3C3;
@@ -83,7 +83,7 @@ footer {
     text-align: center;
     border-radius: 5px;
 }
-.footer{
+footer{
     margin-top:40px;
     color:#ffffff;
 }

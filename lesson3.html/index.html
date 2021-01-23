@@ -7,14 +7,12 @@
     <meta name="description" content="website planning document for prospetive weather site.">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300;400&display=swap" >
-    <link rel="stylesheet" href="style.css"/> 
-    <link rel="stylesheet" media="screen and (min-width: 320px)" href="small.css">
-    <link rel="stylesheet" media="screen and (min-width: 481px)" href="medium.css">
-    <link rel="stylesheet" media="screen and (min-width: 769px)" href="large.css">
+    <link rel="stylesheet" href="css/style.css"/> 
+    <link rel="stylesheet" media="screen and (min-width: 320px)" href="css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 481px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="css/large.css">
 </head>
-<body onload="dateUpdated()">
-
-    <script src="java/time.js"></script>
+<body>
 
     <header>
         <h1>
@@ -47,21 +45,24 @@
             Domain Name
         </h1>
         <p>
-            "localweatherwatchers.com" per availability at<a href="https://portal.hostgator.com/domain/purchase/registration/localweatherwatchers/SNAPPY?__token_timestamp__=1590492314&__token_val__=800445ac420105e6f46220756530c73f">hostgator.com</a> for $12.95/year.
+            "localweatherwatchers.com" per availability at <a href="https://portal.hostgator.com/domain/purchase/registration/localweatherwatchers/SNAPPY?__token_timestamp__=1590492314&__token_val__=800445ac420105e6f46220756530c73f">hostgator.com</a> for $12.95/year.
         </p>
         <h2>
             Logo
         </h2>
-        <img src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-03-256.png" alt="logo image" height="50" width="50">
+        <img src="https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-03-256.png" alt="logo image">
 
     </main>
 
     <footer>
-        &copy; <span id="copyRightYear"></span> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        &copy; <span id="currentYear"></span> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
         <div>
-          Last updated: <div id="outputData"></div> 
+          Last updated: <span id="lastUpdate"></span>
         </div>  
     </footer>
+
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/lastUpdate.js"></script>
     
 </body>
 </html>
