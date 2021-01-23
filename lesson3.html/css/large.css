@@ -2,10 +2,16 @@
     .home-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    img {
+    .logo{
         width: 100%;
         height: auto;
-        max-width: 200px;
+        max-width: 400px;
+    }
+    .color-chart{
+        display: flex;
+        max-width: 700px;
+        align-items: center;
+        box-shadow:  0 2px 15px;
     }
 
 }

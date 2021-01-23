@@ -2,9 +2,10 @@
     .home-grid{
         grid-template-columns: 1fr;
     }
-    img {
+    .logo {
         width: 100%;
         height: auto;
+        max-width: 50px;
     }
     
   }
