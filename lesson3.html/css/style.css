@@ -41,14 +41,19 @@ nav ul li a {
 a{
     text-decoration: none;
     display: inline;
-    color: #ffffff;
+    color: #03045E;
     text-align: center;
 }
 nav a {
     color: #ffffff;
+    display: flex;
+}
+nav a:hover {
+    background-color: #0077B6;
+    font-weight: bold;
 }
 a:hover {
-    background-color: #0077B6;
+    color: #03045E;
     font-weight: bold;
 }
 a:active {
@@ -106,7 +111,6 @@ figcaption{
     display: flex;
     align-items: center;
     box-shadow:  0 2px 15px;
-    }
 }
 section{
     background-color: #F2F2F2;

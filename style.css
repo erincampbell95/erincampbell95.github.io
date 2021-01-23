@@ -32,8 +32,8 @@ footer {
     border: 2px solid #F2F2F2;
     border-radius: 5px;
 }
-nav a {
-    color: #6C8DC8;
+a {
+    color: #ADB5BD;
 }
 img{
     float: right;
@@ -41,14 +41,14 @@ img{
     margin: 1em 1em;
 }
 a:hover {
-    color: #6C8DC8;
+    color: #495057;
     font-weight: bold;
   }
   a:active {
-    color: #85B1DB;
+    color: #343A40;
   }
   a:visited {
-    color: #91C3C3;
+    color: #343A40;
   }
  
  
