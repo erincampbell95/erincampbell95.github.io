@@ -19,15 +19,19 @@ nav {
     padding:15px;
     width: auto;
 }
+nav ul { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
     overflow: hidden;
-    display: flex; 
 }
 nav ul li { 
-        flex: 1 1 100%; 
+    flex: 1 1 100%; 
 }
 nav ul li a {
     display: block;
@@ -38,12 +42,6 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
 }
-a{
-    text-decoration: none;
-    display: inline;
-    color: #03045E;
-    text-align: center;
-}
 nav a {
     color: #ffffff;
     display: flex;
@@ -52,28 +50,24 @@ nav a:hover {
     background-color: #0077B6;
     font-weight: bold;
 }
+nav a:visited {
+    color: #ffffff;
+}
+nav a:active {
+    background-color: #0077B6;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: #03045E;
+    text-align: center;
+}
 a:hover {
     color: #03045E;
     font-weight: bold;
 }
-a:active {
-    background-color: #0077B6;
-}
-a:visited {
-    color: #ffffff;
-}
-.links{
-      display: inline;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      letter-spacing:2px;
-      color:#ffffff;
-      text-align: center;
-}
-p{
-    line-height: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
+a:visited{
+    color:#0077B6;
 }
 h1{
     font-family: 'Bodoni Moda', serif;
@@ -89,6 +83,11 @@ h2{
     margin-left:30px;
     font-family: 'Bodoni Moda', serif;
     font-size: 25px;
+}
+p{
+    line-height: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 header,
 footer {
@@ -117,19 +116,14 @@ section{
     background-color: #F2F2F2;
     border-radius: 5px;
 }
-nav ul { 
-    display: grid;
-    /*grid-template-columns: repeat(5, 1fr);*/
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-}
 table {
     width: 100%;
     min-width: 350px;
     margin: auto;
     text-align: center;
-  }
-  th{
+}
+th{
     background-color: #023E8A;
     color:#ffffff;
     padding: 10px;
-  }
+}
