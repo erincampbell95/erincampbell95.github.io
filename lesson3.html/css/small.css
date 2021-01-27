@@ -8,8 +8,8 @@
         max-width: 50px;
     }
     nav ul {
-        display:grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        display: flex;
+        flex-direction:column;
     }
     .table{
         display:grid;

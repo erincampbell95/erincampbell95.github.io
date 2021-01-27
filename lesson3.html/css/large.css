@@ -13,5 +13,9 @@
         align-items: center;
         box-shadow:  0 2px 15px;
     }
+    nav ul { 
+        display: flex;
+        justify-content: space-around;
+    }
 
 }
