@@ -54,8 +54,12 @@ nav a:active {
 a{
     text-decoration: none;
     display: inline;
-    color: #03045E;
+    color: #8283b8;
     text-align: center;
+}
+footer a{
+    color: #F2F2F2;
+    text-decoration: underline;
 }
 a:hover {
     color: #03045E;
