@@ -24,7 +24,7 @@ body{
 }
 .logo-img{
     max-width: 50px;
-    height: auto;
+    max-height: 50px;
 }
 .navigation li:first-child {
     display:block;
