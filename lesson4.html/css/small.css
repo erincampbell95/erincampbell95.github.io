@@ -8,6 +8,8 @@ body{
 }
 .siteName{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #content{
     margin: 20px auto;
@@ -23,14 +25,21 @@ body{
     color: #03045E;
 }
 .logo-img{
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 75px;
+    max-height: 75px;
 }
 .navigation li:first-child {
     display:block;
+    font-size:50px;
+}
+.navigation li:first-child a {
+    border-top: none;
 }
 .responsive li{
     display: block;
+}
+li{
+    display:none;
 }
 nav {
 	background-color: #03045E;
@@ -75,11 +84,11 @@ nav a:active {
     background-color: #0077B6;
 }
 a:hover {
-    color: #03045E;
+    color: yellow;
     font-weight: bold;
 }
 a:visited{
-    color:#0077B6;
+    color:#F5F5F5;
 }
 h1{
     font-family: 'Bodoni Moda', serif;
@@ -91,6 +100,7 @@ h1{
     border-radius: 5px;
 }
 h2{
+    text-align: center;
     margin-top:40px;
     font-family: 'Bodoni Moda', serif;
     font-size: 25px;
