@@ -4,6 +4,7 @@
     }
     .navigation{ 
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
     }
     .navigation li:first-child {
@@ -12,6 +13,12 @@
     .navigation li {
         display: block;
         flex: 1 1 100%;
+    }
+    nav ul li a{
+        border-top: none;
+    }
+    .responsive li:first-child {
+        display: none;
     }
     h1{
         font-family: 'Bodoni Moda', serif;

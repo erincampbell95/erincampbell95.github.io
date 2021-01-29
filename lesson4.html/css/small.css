@@ -6,6 +6,10 @@ body{
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
+.sitename{
+    display: flex;
+
+}
 #content{
     margin: 20px auto;
     justify-content:center;
@@ -17,6 +21,7 @@ body{
     padding: 30px;
     background-color: #FFFFFF;
     border-radius: 5px;
+    color: #03045E;
 }
 .logo-img{
     max-width: 50px;
@@ -60,8 +65,8 @@ nav ul li a:hover {
     font-weight: bold;
 }
 nav ul li a:active {
-    background-color: rgba(0,0,0,0.2); 
-    color: #fff;
+    background-color:#ffffff;; 
+    color: #03045E;
 }
 nav a:visited {
     color: #ffffff;
@@ -89,6 +94,8 @@ h2{
     margin-top:40px;
     font-family: 'Bodoni Moda', serif;
     font-size: 25px;
+    color: #ffffff;
+    margin-left: 150px;
 }
 header{
     display: flex;
