@@ -1,21 +1,23 @@
 @media only screen and (min-width: 481px) {
-}
-.logo-img{
-    float:left;
-    max-width: 150px;
-}
-nav button{
-    display:none;
-}
-nav ul { 
-    display: flex;
-    justify-content: space-around;
-}
-nav ul.hide{
-    display:none;
-}
-h1{
-    font-family: 'Bodoni Moda', serif;
-    font-size: 30px;
-    text-align: center;
+    .logo-img{
+        max-width: 150px;
+    }
+    .navigation{ 
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    h1{
+        font-family: 'Bodoni Moda', serif;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
 }
