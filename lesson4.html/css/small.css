@@ -6,9 +6,8 @@ body{
     text-align: left;
     font-family: 'Roboto', sans-serif;
 }
-.sitename{
+.siteName{
     display: flex;
-
 }
 #content{
     margin: 20px auto;
@@ -25,6 +24,7 @@ body{
 }
 .logo-img{
     max-width: 50px;
+    height: auto;
 }
 .navigation li:first-child {
     display:block;
@@ -95,7 +95,6 @@ h2{
     font-family: 'Bodoni Moda', serif;
     font-size: 25px;
     color: #ffffff;
-    margin-left: 150px;
 }
 header{
     display: flex;
