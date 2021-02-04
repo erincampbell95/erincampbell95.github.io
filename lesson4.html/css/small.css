@@ -79,9 +79,13 @@ nav ul li a:active {
 }
 nav a:visited {
     color: #ffffff;
+    background-color: #0077B6;
 }
 nav a:active {
     background-color: #0077B6;
+}
+nav a:focus{
+    background-color:  #0077B6;
 }
 a:hover {
     color: yellow;
