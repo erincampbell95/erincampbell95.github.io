@@ -200,14 +200,17 @@ footer a {
     color: white;
 }
 .table {
-    display: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding: 10px;
     margin-right: 300px;
     margin-left: 300px;
     color: white;
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
 }
 .table-header {
     display: flex;
@@ -217,6 +220,7 @@ th {
     background-color: #03045E;
     padding: 15px;
     justify-content: center;
+    width: 100px;
 }
 td {
     background-color: white;
