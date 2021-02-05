@@ -39,6 +39,9 @@
     float: left;
     max-width: 400px;
 }
+.table {
+    display: block;
+}
 
 
 }
