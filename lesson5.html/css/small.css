@@ -196,39 +196,6 @@ footer a {
 .bannerShow {
     display: block;
 }
-table {
-    margin:auto;
-}
-.table-header {
-    color: white;
-}
-.table {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-    margin-right: 300px;
-    margin-left: 300px;
-    color: white;
-    width: 100%;
-    min-width: 350px;
-    margin: auto;
-    text-align: center;
-}
-.table-header {
-    display: flex;
-    justify-content: center;
-}
-th {
-    background-color: #03045E;
-    padding: 15px;
-    justify-content: center;
-    width: 100px;
-}
-td {
-    background-color: white;
-    color:  #03045E;
-}
 .content-2 {
     flex-direction: column;
 }
