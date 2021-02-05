@@ -193,6 +193,12 @@ footer a {
     font-size: 20px;
     display: none;
 }
+.bannerShow {
+    display: block;
+}
+table {
+    margin:auto;
+}
 .table-header {
     color: white;
 }
@@ -224,7 +230,6 @@ td {
     color:  #03045E;
 }
 .content-2 {
-    display: flex;
     flex-direction: column;
 }
 .map {
