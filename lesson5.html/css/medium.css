@@ -44,10 +44,8 @@
         margin:auto;
     }
     .table {
-        display: flex;
-        flex-direction: row;
+        display: block;
         justify-content: center;
-        padding: 10px;
         margin-right: 300px;
         margin-left: 300px;
         color: white;
