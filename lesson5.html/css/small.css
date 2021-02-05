@@ -93,14 +93,11 @@ nav a:visited {
 nav a:active {
     background-color: #0077B6;
 }
-nav a:focus{
-    background-color:  #0077B6;
-}
-nav a:focus {
-    background-color: #0077B6;
-}
 a:visited{
     color:#F5F5F5;
+}
+.navigation .current {
+    background-color: #023E8A; 
 }
 h1{
     font-family: 'Bodoni Moda', serif;
