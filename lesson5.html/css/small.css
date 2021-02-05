@@ -15,7 +15,6 @@ body{
     margin: 20px auto;
     justify-content:center;
 }
-.contents,
 .content-1 {
     margin-top: 30px;
     margin: 20px auto;
@@ -170,4 +169,11 @@ footer a {
 .hero-header {
     color: white;
     text-decoration: underline;
+}
+.banner {
+    background-color: yellow;
+    justify-content: center;
+    align-items:center;
+    padding: 35px;
+    text-decoration: bold;
 }
