@@ -26,11 +26,19 @@
         font-size: 30px;
         text-align: center;
     }
+    .weather-stats {
+        padding: 1.5rem;
+    }
    .content-2-image {
        max-width: 300px;
        float: right;
        margin-left: 35px;
    }
+   .map {
+    display: block;
+    float: left;
+    max-width: 400px;
+}
 
 
 }

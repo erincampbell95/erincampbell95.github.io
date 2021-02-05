@@ -24,6 +24,15 @@ body{
     border-radius: 5px;
     color: #03045E;
 }
+.content-2 {
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: #03045E;
+}
 .logo-img{
     max-width: 75px;
     max-height: 75px;
@@ -106,6 +115,9 @@ h2{
     font-size: 25px;
     color: #ffffff;
 }
+p {
+    line-height: 20px;
+}
 header{
     display: flex;
     align-items: center;
@@ -124,6 +136,7 @@ footer{
 }
 footer a {
     color: #F5F5F5;
+    line-height: 35px;
 }
 
    /*----- Clearfix: Force an Element not to collapse -----*/
@@ -152,7 +165,7 @@ footer a {
 	left: 25px;
 	background: #023E8A;
 	border: 1px solid #023E8A;
-	padding: 1.5rem;
+    padding: 0;
 	box-shadow: 0 0 50px #111;
     opacity: .8;
 }
@@ -171,9 +184,29 @@ footer a {
     text-decoration: underline;
 }
 .banner {
+    display: flex;
     background-color: yellow;
     justify-content: center;
     align-items:center;
     padding: 35px;
-    text-decoration: bold;
+    font-weight: bold;
+    font-size: 20px;
+    display: none;
+}
+.table-header {
+    color: white;
+}
+table {
+    display: flex;
+    color: white;
+}
+th {
+    border:rgba(150, 155, 202, 0.349);
+}
+.content-2 {
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    display: none;
 }
