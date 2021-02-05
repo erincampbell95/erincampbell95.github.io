@@ -1,2 +1,4 @@
-console.log(date.toLocaleString('en-US', options));
- 
+let options = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
+let date = New Date();
+
+document.getElementById('todayDate').innerHTML= date.toLocaleString('en-US', options);
