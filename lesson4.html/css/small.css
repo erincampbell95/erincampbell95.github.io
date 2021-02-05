@@ -87,10 +87,6 @@ nav a:active {
 nav a:focus{
     background-color:  #0077B6;
 }
-a:hover {
-    color: yellow;
-    font-weight: bold;
-}
 a:visited{
     color:#F5F5F5;
 }

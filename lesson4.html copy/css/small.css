@@ -15,7 +15,8 @@ body{
     margin: 20px auto;
     justify-content:center;
 }
-.contents{
+.contents,
+.content-1 {
     margin-top: 30px;
     margin: 20px auto;
     max-width: 900px;
@@ -87,10 +88,6 @@ nav a:active {
 nav a:focus{
     background-color:  #0077B6;
 }
-a:hover {
-    color: yellow;
-    font-weight: bold;
-}
 a:visited{
     color:#F5F5F5;
 }
@@ -135,4 +132,42 @@ footer a {
     content: "";
     display: table;
     clear: both;
-  }
+}
+.herodiv {
+    margin: 50px auto;
+    position: relative;
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.content-1-image {
+    max-width: 100%;
+}
+.content-2-image {
+    box-shadow: 0 0 30px #111;
+    max-width: 100%;
+}
+.weather-stats {
+    position: absolute;
+	top: 25px;
+	left: 25px;
+	background: #023E8A;
+	border: 1px solid #023E8A;
+	padding: 1.5rem;
+	box-shadow: 0 0 50px #111;
+    opacity: .8;
+}
+.weather-stats p {
+    color: #ffffff;
+}
+#current,
+#high,
+#windchill,
+#humidity,
+#windspeed {
+    color: yellow;
+}
+.hero-header {
+    color: white;
+    text-decoration: underline;
+}

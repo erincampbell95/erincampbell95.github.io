@@ -26,6 +26,11 @@
         font-size: 30px;
         text-align: center;
     }
+   .content-2-image {
+       max-width: 300px;
+       float: right;
+       margin-left: 35px;
+   }
 
 
 }
