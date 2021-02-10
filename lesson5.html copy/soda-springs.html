@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local Weather Watchers</title>
+    <meta name="description" content="website for the local weather">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300;400&display=swap" >
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header>
+        <div class="siteName">
+            <img class="logo-img" src="images/iconfinder_weather_2_2682849.png" alt="Weather Site Logo image"> 
+        <h1>
+            Local Weather Watchers
+        </h1>
+        </div>
+    </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776</a></li>
+                <li><a href="preston-5.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a class="current" href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main id="content">
+        <h2>
+            Weather Site 
+        </h2>
+        <div class="contents">Content here</div>
+        <div class="contents">Content here</div>
+        <div class="contents">Content here</div>
+        <div class="contents">Content here</div>
+        
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | <a href="/index.html">Home Portal</a> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        <div id="todayDate"></div>  
+    </footer>
+
+    <script src="javascript/navigate.js"></script>
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/currentDate.js"></script>
+    
+</body>
+</html>

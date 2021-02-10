@@ -12,18 +12,14 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 a:link {
-    /*color: #ffffff;*/
     color: red;
-}
-.link1:link {
-    color:red;
 }
 a:visited {
     background-color:turquoise;
 }
 nav ul li a:hover {
-    /*background-color:thistle;*/
-    /*color:rgb(74, 110, 0);*/
+    background-color:thistle;
+    color:rgb(74, 110, 0);
     font-weight: bold;
 }
 a:active {
@@ -75,4 +71,7 @@ div:hover .cookies2 {
     color: red;
     background: yellow;
   }
-
+div:empty {
+    background-color:blue;
+    padding: 30px;
+}

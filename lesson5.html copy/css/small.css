@@ -1,0 +1,208 @@
+body{
+    background-color: #0077B6;
+    font-size: .9em;
+    max-width: 100%;
+    margin: 0,auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.siteName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    margin: 20px auto;
+    justify-content:center;
+}
+.content-1 {
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #03045E;
+}
+.content-2 {
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: #03045E;
+}
+.logo-img{
+    max-width: 75px;
+    max-height: 75px;
+}
+.navigation li:first-child {
+    display:block;
+    font-size:50px;
+}
+.navigation li:first-child a {
+    border-top: none;
+}
+.responsive li{
+    display: block;
+}
+li{
+    display:none;
+}
+nav {
+	background-color: #03045E;
+    text-align: center;
+    padding:15px;
+    width: auto;
+}
+nav ul { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    margin: auto;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+    font-size: 0.95rem;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(150, 155, 202, 0.349);
+}
+nav a {
+    color: #ffffff;
+}
+nav ul li a:hover {
+    background-color: #0077B6;
+    font-weight: bold;
+}
+nav ul li a:active {
+    background-color:#ffffff;; 
+    color: #03045E;
+}
+nav a:visited {
+    color: #ffffff;
+    background-color: #0077B6;
+}
+nav a:active {
+    background-color: #0077B6;
+}
+a:visited{
+    color:#F5F5F5;
+}
+.navigation .current {
+    background-color: #023E8A; 
+}
+h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #023E8A;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin-top:40px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+p {
+    line-height: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header,
+footer {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #023E8A;
+    text-align: center;
+}
+footer{
+    margin-top:40px;
+    color:#ffffff;
+}
+footer a {
+    color: #F5F5F5;
+    line-height: 35px;
+}
+
+   /*----- Clearfix: Force an Element not to collapse -----*/
+   .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.herodiv {
+    margin: 50px auto;
+    position: relative;
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.content-1-image {
+    max-width: 100%;
+}
+.content-2-image {
+    box-shadow: 0 0 20px #111;
+    max-width: 100%;
+}
+.weather-stats {
+    position: absolute;
+	top: 25px;
+	left: 25px;
+	background: #023E8A;
+	border: 1px solid #023E8A;
+    padding: 0;
+	box-shadow: 0 0 50px #111;
+    opacity: .8;
+}
+.weather-stats p {
+    color: #ffffff;
+}
+#current,
+#high,
+#windchill,
+#humidity,
+#windspeed {
+    color: yellow;
+}
+.hero-header {
+    color: white;
+    text-decoration: underline;
+}
+.banner {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items:center;
+    padding: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+.bannerShow {
+    display: block;
+}
+.content-2 {
+    flex-direction: column;
+}
+.map {
+    display: none;
+}
+.table {
+    display:none;
+}
