@@ -1,6 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 0, auto;
+    margin: auto;
+    margin-top:20px;
     justify-content: center;
+}
+img{
+    margin-top: auto;
 }
