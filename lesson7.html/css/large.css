@@ -1,0 +1,24 @@
+@media only screen and (min-width: 769px) {
+    .logo-img{
+        max-width: 150px;
+    }
+    nav ul { 
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    h1{
+        font-family: 'Bodoni Moda', serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    .content-1-image {
+        max-width: 900px;
+    }
+    .content-2-image {
+        max-width: 350px;
+        float: right;
+        margin-left: 35px;
+        margin-bottom: 30px;
+    }
+}
