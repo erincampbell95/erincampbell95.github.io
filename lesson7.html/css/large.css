@@ -21,4 +21,23 @@
         margin-left: 35px;
         margin-bottom: 30px;
     }
+    .gallery-imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+    .gallery1:hover,
+    .gallery2:hover,
+    .gallery3:hover,
+    .gallery4:hover,
+    .gallery5:hover,
+    .gallery6:hover,
+    .gallery7:hover,
+    .gallery8:hover,
+    .gallery9:hover {
+        margin: auto;
+        margin-bottom: 30px;
+        background-color: #ffffff;
+        box-shadow: 0 0 50px #333;
+    }
 }

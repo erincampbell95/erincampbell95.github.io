@@ -207,3 +207,30 @@ footer a {
 .table {
     display:none;
 }
+img{
+    filter: blur(0px);
+}
+img[data-src]{
+    filter: blur(3px);
+}
+.gallery-imgs{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4,
+.gallery5,
+.gallery6,
+.gallery7,
+.gallery8,
+.gallery9{
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+.gallery-imgs figcaption{
+    margin-top:15px;
+}
