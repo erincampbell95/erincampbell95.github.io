@@ -69,5 +69,10 @@
         background-color: white;
         color:  #03045E;
     }
+    .gallery-imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
 }
 
