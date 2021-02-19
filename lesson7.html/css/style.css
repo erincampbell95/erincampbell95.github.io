@@ -10,10 +10,15 @@ h2{
     text-align: center;
 }
 img{
+    display: block;
     margin-top: auto;
+    margin: auto;
     justify-items: center;
     filter: blur(0px);
 }
 img[data-src]{
     filter: blur(3px);
+}
+body > picture{
+    margin: 10px;
 }

@@ -207,14 +207,17 @@ footer a {
 .table {
     display:none;
 }
-img{
+.gallery-imgs img{
     filter: blur(0px);
+    max-width: 100%;
+    height: auto;
 }
 img[data-src]{
     filter: blur(3px);
 }
 .gallery-imgs{
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 1fr;
     max-width: 100%;
 }
