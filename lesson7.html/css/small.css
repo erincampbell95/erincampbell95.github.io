@@ -231,9 +231,14 @@ img[data-src]{
 .gallery8,
 .gallery9{
     margin: auto;
+    margin-top: 0px;
     margin-bottom: 30px;
     background-color: #ffffff;
 }
 .gallery-imgs figcaption{
     margin-top:15px;
+}
+.gallery-imgs figure {
+    margin: 0px;
+    padding: 5px;
 }
