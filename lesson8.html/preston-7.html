@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local Weather Watchers</title>
+    <meta name="description" content="website for the local weather">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300;400&display=swap" >
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <div class="banner">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+
+    <header>
+        <div class="siteName">
+            <img class="logo-img" src="images/iconfinder_weather_2_2682849.png" alt="Weather Site Logo image"> 
+        <h1>
+            Local Weather Watchers
+        </h1>
+        </div>
+    </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776</a></li>
+                <li><a class="current" href="preston-7.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main id="content">
+        <h2>
+            Preston Idaho 
+        </h2>
+        <div class="herodiv">
+                <picture>
+                    <source class="200" srcset="images/hero-img-200.jpg" media="(max-width: 360px)">
+                        <source class="400" srcset="images/hero-img-400.jpg" media="(max-width: 480px)">
+                            <source class="600" srcset="images/hero-img-600.jpg" media="(max-width: 768px)">
+                                <source class="800" srcset="images/hero-img-800.jpg" media="(max-width: 900px)">
+                    <img class="content-1-image" src="images/hero-img-1000.jpg" alt="Sunny Landscape">
+                </picture>
+                <!--<a href="https://www.pexels.com/photo/town-near-forest-111963/">Photo by Miki Czetti from Pexels</a>-->
+            <section class="weather-stats">
+                <h3 class="hero-header">
+                    Weather Summary
+                </h3>
+                <p>Currently: <span id="current">Sunny</span></p> 
+                <p>High: <span id="temperature">76</span>°F</p>
+                <p>Windchill: <span id="windChill"></span>°F</p> 
+                <p>Humidity: <span id="humidity">68</span>%</p>
+                <p>Windspeed: <span id="windSpeed">5</span>mph</p>
+            </section>
+        </div>
+        <div class="table">
+            <h3 class="table-header">
+                5 Day Forecast
+            </h3>
+            <table>
+                <tr>
+                    <th>
+                       Monday
+                    </th>
+                    <th>
+                        Tuesday
+                    </th>
+                    <th>
+                        Wednesday
+                    </th>
+                    <th>
+                        Thursday
+                    </th>
+                    <th>
+                        Friday
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                    </td>
+                    <td>
+                        <img src="images/sunny_75.png" alt="sunny" height="75" width="75">
+                    </td>
+                    <td>
+                        <img src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                    </td>
+                    <td>
+                        <img src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                    </td>
+                    <td>
+                        <img src="images/sunny_75.png" alt="cloudy" height="75" width="75">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        76°F
+                    </td>
+                    <td>
+                        84°F
+                    </td>
+                    <td>
+                        73°F
+                    </td>
+                    <td>
+                        75°F
+                    </td>
+                    <td>
+                        82°F
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="content-1">
+                <img class="content-2-image" src="images/rsz_pexels-helena-lopes-697243.jpg" alt="image of four friends">
+                <!--<a href="https://www.pexels.com/photo/four-person-standing-on-cliff-in-front-of-sun-697243/">Photo by Helena Lopes from Pexels</a>-->
+            <h3>
+                A Day Outside
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis perspiciatis voluptatem deserunt dicta iusto consequatur nesciunt fuga velit necessitatibus! Quo consequatur minus amet modi id omnis architecto inventore pariatur?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem id et illum eveniet fuga dolore mollitia. Temporibus nisi accusantium officiis minus eius sit ratione laudantium rerum. Natus nobis laborum rerum.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque reprehenderit accusantium dicta, porro iusto illum et quis perspiciatis, iste dolorum suscipit quibusdam atque vitae ad quas laudantium expedita incidunt!
+            </p>
+        </div>
+        <div class="content-2">
+            <img class="map" src="images/rsz_idaho_map.png" alt="town map">
+            <h4>
+                The Weather Site
+            </h4>
+            <p>
+                30 N 1 E<br>
+                Preston, ID 83263
+            </p>
+            <p>
+                999.999.9999<br>
+                localweatherwatchers@lww.com
+            </p>
+            <div class="social">
+                <a href="#Facebook"
+                  ><img 
+                    src="https://cdn.glitch.com/0dc956a8-2122-45a2-b396-ea5d68d50f72%2Fsquare-facebook-512.webp?v=1589237017897" 
+                    alt="Facebook icon" 
+                    height="20" 
+                    width="20"
+                /></a>
+                <a href="#Pinterest"
+                  ><img
+                    src="https://cdn.glitch.com/0dc956a8-2122-45a2-b396-ea5d68d50f72%2Fpinterest-128.png?v=1589237130336"
+                    alt="Pinterest icon"
+                    height="20"
+                    width="20"
+                /></a>
+                <a href="#Instagram"
+                  ><img
+                    src="https://cdn.glitch.com/0dc956a8-2122-45a2-b396-ea5d68d50f72%2Finstagram-icon.png?v=1589237136108"
+                    alt="Instagram icon"
+                    height="20"
+                    width="20"
+                /></a>
+              </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | <a href="/index.html">Home Portal</a> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        <div id="todayDate"></div>  
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="javascript/webFontLoad.js"></script>
+    <script src="javascript/navigate.js"></script>
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/currentDate.js"></script>
+    <script src="javascript/banner.js"></script>
+    <script src="javascript/windchill.js"></script>
+    
+</body>
+</html>

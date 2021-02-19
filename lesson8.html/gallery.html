@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local Weather Watchers</title>
+    <meta name="description" content="website for the local weather">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300;400&display=swap" >
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header>
+        <div class="siteName">
+            <img class="logo-img" src="images/iconfinder_weather_2_2682849.png" alt="Weather Site Logo image"> 
+        <h1>
+            Local Weather Watchers
+        </h1>
+        </div>
+    </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776</a></li>
+                <li><a href="preston-6.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a href="storm-center.html">Storm Center</a></li>
+                <li><a class="current" href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+    <main id="content">
+        <h2>
+            Weather Gallery
+        </h2>
+        <div class="gallery-imgs">
+            <div class="gallery1">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery1.jpg" alt="Mountain View Town">
+                    <figcaption>
+                        Sunny skies over Springfeild
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery2">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery2.jpg" alt="Country Road">
+                    <figcaption>
+                        Hot and humind in Greenville
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery3">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery3.jpg" alt="Forming Tornado">
+                    <figcaption>
+                        Signs of tornado near Clark County
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery4">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery4.jpg" alt="Rainbow over City">
+                    <figcaption>
+                        Rainbow spotted south of Franklin
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery5">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery5.jpg" alt="Lightning and rain">
+                    <figcaption>
+                        Rain and lighting storm near Dayton
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery6">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery6.jpg" alt="Rays of sunshine through grey clouds">
+                    <figcaption>
+                        Rays of sunshine sfter storm in Whitney
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery7">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery7.jpg" alt="Rolling clouds over farmland">
+                    <figcaption>
+                        Cold front over Springfeild
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery8">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery8.jpg" alt="Foggy Mountians">
+                    <figcaption>
+                        Clifton full of fog
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="gallery9">
+                <figure>
+                    <img src="images/placeholder.jpg" data-src="images/gallery9.jpg" alt="Birds in snow">
+                    <figcaption> First snow fall in Franklin Park
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | <a href="/index.html">Home Portal</a> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        <div id="todayDate"></div>  
+    </footer>
+
+    <script src="javascript/navigate.js"></script>
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/currentDate.js"></script>
+    <script src="javascript/imageHandling.js"></script>
+    
+</body>
+</html>
