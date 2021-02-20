@@ -3,12 +3,12 @@ body{
 }
 table{
     font-family: ubuntu, sans-serif;
-    padding: 20px;
-    border-color: grey;
+    border: grey;
     margin:auto;
     box-shadow: 5px 10px 8px #628ca6;
     margin-top: 50px;
     background-color: #ffffff;
+    max-width: 100%
 }
 table thead th{
     font-size: 35px;
@@ -22,6 +22,7 @@ table tbody th{
 }
 table tbody td{
     font-size: 15px;
+    text-align: center;
 }
 table thead,
 table tfoot{
@@ -29,14 +30,16 @@ table tfoot{
 }
 table tbody td{
     padding:15px;
+    border: grey;
 }
 table tfoot td{
     padding:11px;
+    text-align: center;
 }
-table tbody td:nth-child(even){
-    background-color: #7fb9c2;
+table tbody tr:nth-child(even){
+    background-color: #e7f0ed;
 }
-table tbody td:nth-child(odd){
+table tbody tr:nth-child(odd){
     background-color: #e7ffed;
 }
 #event{
@@ -45,4 +48,5 @@ table tbody td:nth-child(odd){
 tbody tr:nth-child(5)
 td:nth-child(3){
     background-color: #628ca6;
+    color: #ffffff;
 }
