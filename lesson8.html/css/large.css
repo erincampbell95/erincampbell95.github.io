@@ -40,4 +40,7 @@
         background-color: #ffffff;
         box-shadow: 0 0 50px #333;
     }
+    form input.submitBtn{
+        
+    }
 }
