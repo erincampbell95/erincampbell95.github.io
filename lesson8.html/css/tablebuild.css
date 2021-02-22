@@ -30,13 +30,14 @@ table tfoot{
 }
 table tbody td{
     padding:15px;
-    border: grey;
+    border: 1px solid grey;
+    border-collapse: collapse;
 }
 table tfoot td{
     padding:11px;
     text-align: center;
 }
-table tbody tr:nth-child(even){
+table tbody tr{
     background-color: #e7f0ed;
 }
 table tbody tr:nth-child(odd){
@@ -45,8 +46,7 @@ table tbody tr:nth-child(odd){
 #event{
     font-style: italic;
 }
-tbody tr:nth-child(5)
-td:nth-child(3){
+em{
     background-color: #628ca6;
     color: #ffffff;
 }

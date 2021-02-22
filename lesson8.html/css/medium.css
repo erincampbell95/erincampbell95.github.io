@@ -74,5 +74,8 @@
         grid-template-columns: 1fr 1fr;
         max-width: 100%;
     }
+    form fieldset{
+        padding: 0 20px;
+    }
 }
 
