@@ -47,6 +47,8 @@ table tbody tr:nth-child(odd){
     font-style: italic;
 }
 em{
+    color: #black;
+}
+.emphasis{
     background-color: #628ca6;
-    color: #ffffff;
 }
