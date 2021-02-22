@@ -35,8 +35,8 @@
         </nav>
     <main class="storm-main">
       <form method="get" action="thanks.html">
-        <fieldset class="firstfield">
-            <legend>Your Information</legend>
+        <fieldset>
+            <legend class="firstfield">Your Information</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top">Last Name*<input type="text" name="lname" required></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
@@ -46,8 +46,8 @@
         <fieldset>
             <legend>Storm Information</legend>
             <label class="top">Storm Date <input type="date" name="date"></label>
-            <label  list="storms" class="top">Storm Type <input type="list" name="stormlist"></label>
-                <datalist id="storms">
+            <label class="top">Storm Type <input type="list" name="stormlist"></label>
+                <datalist  list="storms" id="storms">
                     <option value="">Please Select</option>
                     <option value="Flash Flood"></option>
                     <option value="Hail"></option>
