@@ -246,7 +246,7 @@ img[data-src]{
     background-color: #ffffff;
     width:100%;
     max-width:600px;
-    padding: 0 20px;
+    padding: 0px;
     margin-top: 20px;
     margin: auto;
     border-radius: 6px;
@@ -256,7 +256,6 @@ form fieldset{
     margin: 2rem 0;
     border: 1px solid #03045E;
     border-radius:10px;
-    padding: .5rem 2%;
 }
 .firstfield{
     padding: 10px;
@@ -278,7 +277,7 @@ form label.top input, form label.top select{
     font-size: 16px;
     border: solid 1px #999;
     border-radius: 4px;
-    padding: .75rem;
+    padding: .75rem 0px;
     color: #555;
     width: 100%;
     max-width: 20rem;
@@ -301,10 +300,9 @@ form input.submitBtn{
     color:white;
     border-radius: 1rem;
     padding: 15px;
-    margin: 0 0 2rem 2%;
+    margin: 0 0 2rem 6%;
     margin-bottom: 20px;
     width: 96%;
-    max-width: 80px;
 }
 form label.top input:required{
     border-left: red solid 6px;

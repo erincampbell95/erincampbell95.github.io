@@ -3,12 +3,13 @@ body{
 }
 table{
     font-family: ubuntu, sans-serif;
-    border: grey;
+    border: 1px solid grey;
+    border-collapse: collapse;
     margin:auto;
     box-shadow: 5px 10px 8px #628ca6;
     margin-top: 50px;
     background-color: #ffffff;
-    max-width: 100%
+    max-width: 100%;
 }
 table thead th{
     font-size: 35px;
@@ -47,7 +48,8 @@ table tbody tr:nth-child(odd){
     font-style: italic;
 }
 em{
-    color: #black;
+    color: black;
+    font-size: 15px;
 }
 .emphasis{
     background-color: #628ca6;
