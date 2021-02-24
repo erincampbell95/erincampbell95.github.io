@@ -1,0 +1,85 @@
+@media only screen and (min-width: 481px) {
+    .logo-img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .navigation{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    nav ul li a{
+        border-top: none;
+    }
+    .responsive li:first-child {
+        display: none;
+    }
+    h1{
+        font-family: 'Bodoni Moda', serif;
+        font-size: 30px;
+        text-align: center;
+    }
+    .weather-stats {
+        padding: 1.5rem;
+    }
+   .content-2-image {
+       max-width: 300px;
+       float: right;
+       margin-left: 35px;
+   }
+   .map {
+        display: block;
+        float: left;
+        margin-right: 40px;
+        max-width: 400px;
+    }
+    table {
+        margin:auto;
+    }
+    .table {
+        display: block;
+        justify-content: center;
+        margin-right: 300px;
+        margin-left: 300px;
+        color: white;
+        width: 100%;
+        min-width: 350px;
+        margin: auto;
+        text-align: center;
+    }
+    .table-header {
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    th {
+        background-color: #03045E;
+        padding: 15px;
+        justify-content: center;
+        width: 100px;
+    }
+    td {
+        background-color: white;
+        color:  #03045E;
+    }
+    .gallery-imgs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+    }
+    form fieldset{
+        padding: .5rem 2%;
+        margin: 1.5rem;
+    }
+    form input.submitBtn{
+        max-width: 80px;
+    }
+}
+
