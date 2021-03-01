@@ -12,19 +12,23 @@ fetch(requestURL)
       let card = document.createElement('section');
       let h2 = document.createElement('h2');
       let h5 = document.createElement('h5');
-      let h4 = document.createElement('h4');
+      let p1 = document.createElement('p1');
+      let p2 = document.createElement('p2');
+      let p3 = document.createElement('p3');
       let image = document.createElement('img');
 
       h2.textContent = towns[i].name;
       h5.textContent = towns[i].motto;
-      h4.textContext = towns[i].yearFounded;
-      h4.textContext = towns[i].currentPopulation;
-      h4.textContext = towns[i].averageRainfall;
+      p1.innerHTML = "Year Founded: " + towns[i].yearFounded;
+      p2.innerHTML = "Population: " + towns[i].currentPopulation;
+      p3.innerHTML = "Average Rainfall: " + towns[i].averageRainfall;
       image.setAttribute('src', towns[i].photo);
 
       card.appendChild(h2);
       card.appendChild(h5);
-      card.appendChild(h4);
+      card.appendChild(p1);
+      card.appendChild(p2);
+      card.appendChild(p3);
       card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card);

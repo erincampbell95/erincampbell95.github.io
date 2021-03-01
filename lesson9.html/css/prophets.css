@@ -12,14 +12,18 @@
     max-width: 300px;
 }
 h1{
-    display: flex;
     color:blueviolet;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
 }
 footer{
-    display:flex;
     color:blueviolet;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
+}
+img{
+    width:200px;
+    margin: auto;
 }
