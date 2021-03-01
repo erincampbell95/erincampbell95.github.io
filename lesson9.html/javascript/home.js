@@ -8,21 +8,21 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++ ) {
-    
-      let card = document.createElement('section');
-      let h2 = document.createElement('h2');
+      if(towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs"){
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
       let h5 = document.createElement('h5');
-      let p1 = document.createElement('p1');
-      let p2 = document.createElement('p2');
-      let p3 = document.createElement('p3');
+      let p1 = document.createElement('p');
+      let p2 = document.createElement('p');
+      let p3 = document.createElement('p');
       let image = document.createElement('img');
 
       h2.textContent = towns[i].name;
       h5.textContent = towns[i].motto;
-      p1.innerHTML = "Year Founded: " + towns[i].yearFounded;
+      p1.innerHTML = "Year Founded: " + towns[i].yearFounded; 
       p2.innerHTML = "Population: " + towns[i].currentPopulation;
       p3.innerHTML = "Average Rainfall: " + towns[i].averageRainfall;
-      image.setAttribute('src', towns[i].photo);
+      image.setAttribute('src', "images/" + towns[i].photo);
 
       card.appendChild(h2);
       card.appendChild(h5);
@@ -31,7 +31,11 @@ fetch(requestURL)
       card.appendChild(p3);
       card.appendChild(image);
 
+
       document.querySelector('div.cards').appendChild(card);
+      }
+    
+      
     }
   });
 
