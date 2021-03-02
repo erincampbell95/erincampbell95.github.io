@@ -1,29 +1,59 @@
 .cards{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
+    padding: 10px;
     margin: auto;
-    max-width: 900px;
-    width: 100%;
+    max-width: 100%;
+    width: 1000px;
     background-color: #eee;
     box-shadow: 0 0 50px #333;
 }
+section{
+    width: 300px;
+    max-width: 100%;
+    background-color: #A393BF;
+    border: 1px solid #453750;
+}
 .imageurl{
-    max-width: 300px;
+    max-width: 250px;
 }
 h1{
-    color:blueviolet;
+    color: #453750;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
+h2{
+    text-align: center;
+    color: #453750;
+}
+p{
+    text-align: center;
+}
 footer{
-    color:blueviolet;
+    color:#453750;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
 img{
     width:200px;
-    margin: auto;
+    margin: 10px auto;
+    display:block;
+    box-shadow: 0 0 50px #333;
+}
+@media only screen and (min-width: 481px) {
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media only screen and (min-width: 769px) {
+ .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+section{
+    width: 225px;
+}
 }
