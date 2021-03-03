@@ -81,9 +81,12 @@
     form input.submitBtn{
         max-width: 80px;
     }
+    .cards{
+        flex-direction: column;
+    }
     section{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 700px;
     }
     .cards section:nth-child(3){

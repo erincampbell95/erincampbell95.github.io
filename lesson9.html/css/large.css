@@ -45,4 +45,13 @@
         flex-direction: column;
         width: 700px;
     }
+    .cards{
+        flex-direction:row;
+    }
+    .cards section{
+        flex-direction: column;
+    }
+    .cards section:nth-child(3){
+        flex-direction:column;
+    }
 }
