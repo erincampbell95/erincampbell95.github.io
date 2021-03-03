@@ -316,9 +316,8 @@ form label.top input:required:valid{
 }
 /*---------Home Page--------*/
 .cards{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction:column;
     padding: 10px;
     margin: auto;
     margin-top: 30px;
@@ -328,8 +327,8 @@ form label.top input:required:valid{
     box-shadow: 0 0 50px #333;
 }
 section{
-    display:grid;
-    grid-template-columns: 1fr;
+    display:flex;
+    flex-direction: column;
     width: 300px;
     margin:auto;
     max-width: 100%;
@@ -346,4 +345,15 @@ h5{
 .homeHeader{
     color:blue;
 }
-
+.cards section:nth-child(1){
+    order: 3;
+}
+.cards section:nth-child(2){
+    order: 1;
+}
+.cards section:nth-child(3){
+    order: 2;
+}
+.cards section:nth-child(3){
+    flex-direction:row-reverse;
+}

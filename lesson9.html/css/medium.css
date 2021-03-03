@@ -82,8 +82,6 @@
         max-width: 80px;
     }
     section{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
         width: 700px;
     }
 }
