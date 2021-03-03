@@ -339,8 +339,9 @@ section{
 .imageurl{
     max-width: 250px;
 }
-h5{
-    margin-top:0px;
+.cards section img{
+    width: 100%;
+    height: auto;
 }
 .homeHeader{
     color:blue;
@@ -353,7 +354,4 @@ h5{
 }
 .cards section:nth-child(3){
     order: 2;
-}
-.cards section:nth-child(3){
-    flex-direction:row-reverse;
 }
