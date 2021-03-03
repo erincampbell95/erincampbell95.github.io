@@ -44,16 +44,17 @@ img{
     box-shadow: 0 0 50px #333;
 }
 @media only screen and (min-width: 481px) {
-.cards{
+ .cards{
     display: grid;
     grid-template-columns: 1fr 1fr;
+ }
 }
 @media only screen and (min-width: 769px) {
  .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-section{
+ }
+ section{
     width: 225px;
-}
+ }
 }
