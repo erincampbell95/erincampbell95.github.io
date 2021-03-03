@@ -32,6 +32,7 @@ fetch(requestURL)
         div.appendChild(p2);
         div.appendChild(p3);
         card.appendChild(image);
+        card.appendChild(div);
 
 
         document.querySelector('div.cards').appendChild(card);

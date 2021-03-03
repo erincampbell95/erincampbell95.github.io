@@ -82,7 +82,12 @@
         max-width: 80px;
     }
     section{
+        display:flex;
+        flex-direction: column;
         width: 700px;
+    }
+    .cards section:nth-child(3){
+        flex-direction:row-reverse;
     }
 }
 
