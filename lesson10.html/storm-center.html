@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local Weather Watchers</title>
+    <meta name="description" content="website for the local weather">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Roboto:wght@300;400&display=swap" >
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header>
+        <div class="siteName">
+            <img class="logo-img" src="images/iconfinder_weather_2_2682849.png" alt="Weather Site Logo image"> 
+        <h1>
+            Local Weather Watchers
+        </h1>
+        </div>
+    </header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston-9.html">Preston</a></li>
+                <li><a href="soda-springs.html">Soda Springs</a></li>
+                <li><a href="fish-haven.html">Fish Haven</a></li>
+                <li><a class="current" href="storm-center.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    <main class="storm-main">
+      <form method="get" action="thanks.html">
+        <fieldset>
+            <legend class="firstfield">Your Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" min="3" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" min="3" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">zip code<input type="number" name="zipcode" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Storm Information</legend>
+            <label class="top">Storm Date <input type="date" name="date"></label>
+            <label class="top">Storm Type <input list= "storms" type="list" name="stormlist"></label>
+                <datalist id="storms">
+                    <option value="">Please Select</option>
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+            <label class="rate" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+				<input type="range" id="rating" value="10" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">10</span>
+			</label>
+
+			<datalist id="tickmarks">
+				<option value="0">
+				<option value="1">
+				<option value="2">
+				<option value="3">
+				<option value="4">
+				<option value="5">
+				<option value="6">
+				<option value="7">
+				<option value="8">
+				<option value="9">
+				<option value="10">
+			</datalist>
+            <label class="top">Storm Region
+                <select name="stormregion">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </label>
+            <div>User in-danger level</div>
+            <label class="sbs"><input type="radio" name="dangerlevel" value="yes">Yes</label>
+            <label class="sbs"><input type="radio" name="dangerlevel" value="maybe">Maybe</label>
+            <label class="sbs"><input type="radio" name="dangerlevel" value="no">No</label>
+            <label class="top">Additional Information and Comments <input type="textarea" name="textfield"></label>
+        </fieldset>
+
+        <input type="submit" value="Submit" class="submitBtn">
+      </form>     
+    </main>
+
+    <footer>
+        &copy; <span id="currentYear"></span> | <a href="/index.html">Home Portal</a> | Erin Campbell | Colorado | <a href="https://www.byui.edu/">BYUI Online Learning</a>
+        <div id="todayDate"></div>  
+    </footer>
+
+    <script src="javascript/navigate.js"></script>
+    <script src="javascript/currentYear.js"></script>
+    <script src="javascript/currentDate.js"></script>
+    
+</body>
+</html>

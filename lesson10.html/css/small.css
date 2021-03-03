@@ -1,0 +1,360 @@
+body{
+    background-color: #0077B6;
+    font-size: .9em;
+    max-width: 100%;
+    margin: 0,auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+.siteName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    margin: 20px auto;
+    justify-content:center;
+}
+.content-1 {
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #03045E;
+}
+.content-2 {
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: #03045E;
+}
+.logo-img{
+    max-width: 75px;
+    max-height: 75px;
+}
+.navigation li:first-child {
+    display:block;
+    font-size:50px;
+}
+.navigation li:first-child a {
+    border-top: none;
+}
+.responsive li{
+    display: block;
+}
+li{
+    display:none;
+}
+nav {
+	background-color: #03045E;
+    text-align: center;
+    padding:15px;
+    width: auto;
+}
+nav ul { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+}
+nav ul li a {
+    display: block;
+    margin: auto;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+    font-size: 0.95rem;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(150, 155, 202, 0.349);
+}
+nav a {
+    color: #ffffff;
+}
+nav ul li a:hover {
+    background-color: #0077B6;
+    font-weight: bold;
+}
+nav ul li a:active {
+    background-color:#ffffff;; 
+    color: #03045E;
+}
+nav a:visited {
+    color: #ffffff;
+    background-color: #0077B6;
+}
+nav a:active {
+    background-color: #0077B6;
+}
+a:visited{
+    color:#F5F5F5;
+}
+.navigation .current {
+    background-color: #023E8A; 
+}
+h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #023E8A;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin-top:40px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+p {
+    line-height: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header,
+footer {
+    max-width: 100%;
+    padding: 20px;
+    background-color: #023E8A;
+    text-align: center;
+}
+footer{
+    margin-top:40px;
+    color:#ffffff;
+}
+footer a {
+    color: #F5F5F5;
+    line-height: 35px;
+}
+
+   /*----- Clearfix: Force an Element not to collapse -----*/
+   .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.herodiv {
+    margin: 50px auto;
+    position: relative;
+    margin-top: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.content-1-image {
+    display: flex;
+    max-width: 100%;
+}
+.content-2-image {
+    box-shadow: 0 0 20px #111;
+    max-width: 100%;
+}
+.weather-stats {
+    position: absolute;
+	top: 25px;
+	left: 25px;
+	background: #023E8A;
+	border: 1px solid #023E8A;
+    padding: 0;
+	box-shadow: 0 0 50px #111;
+    opacity: .8;
+}
+.weather-stats p {
+    color: #ffffff;
+}
+#current,
+#high,
+#windchill,
+#humidity,
+#windspeed {
+    color: yellow;
+}
+.hero-header {
+    color: white;
+    text-decoration: underline;
+}
+.banner {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items:center;
+    padding: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+.bannerShow {
+    display: block;
+}
+.content-2 {
+    flex-direction: column;
+}
+.map {
+    display: none;
+}
+.table {
+    display:none;
+}
+.gallery-imgs img{
+    filter: blur(0px);
+    max-width: 100%;
+    height: auto;
+}
+img[data-src]{
+    filter: blur(3px);
+}
+.gallery-imgs{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+}
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4,
+.gallery5,
+.gallery6,
+.gallery7,
+.gallery8,
+.gallery9{
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+.gallery-imgs figcaption{
+    margin-top:15px;
+}
+.gallery-imgs figure {
+    margin: 0px;
+    padding: 5px;
+}
+.storm-main{
+    background-color: #ffffff;
+    width:100%;
+    max-width:600px;
+    padding: 0px;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 6px;
+}
+/*------FORM-----*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #03045E;
+    border-radius:10px;
+}
+.firstfield{
+    padding: 10px;
+}
+form legend{
+    color: #0077B6;
+    margin: 0 1rem;
+    padding:0 .5rem;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #03045E;
+    font-size: .8rem;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 16px;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem 0px;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.rate{
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+    color: #03045E;
+}
+form label.sbs{
+    display:block;
+    padding: .75rem;
+    color: #555;
+}
+form input.submitBtn{
+    border:none;
+    background-color: #03045E;
+    color:white;
+    border-radius: 1rem;
+    padding: 15px;
+    margin: 0 0 2rem 6%;
+    margin-bottom: 20px;
+    width: 96%;
+}
+form label.top input:required{
+    border-left: red solid 6px;
+}
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+.thanks p{
+    background-color: #ffffff;
+    margin: auto;
+}
+/*---------Home Page--------*/
+.cards{
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    max-width: 100%;
+    width: 1000px;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px #333;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    margin:auto;
+    max-width: 100%;
+    background-color: #73b5d8;
+    box-shadow: 0 0 50px #333;
+    text-align:center;
+}
+.imageurl{
+    max-width: 250px;
+}
+.cards section img{
+    width: 100%;
+    height: auto;
+}
+.cards section:nth-child(1){
+    order: 3;
+}
+.cards section:nth-child(2){
+    order: 1;
+}
+.cards section:nth-child(3){
+    order: 2;
+}
+.cards section h2{
+    color: #03045E;
+}
+.cards section p{
+    color: #03045E;
+}
