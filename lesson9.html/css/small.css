@@ -343,9 +343,6 @@ section{
     width: 100%;
     height: auto;
 }
-.homeHeader{
-    color:blue;
-}
 .cards section:nth-child(1){
     order: 3;
 }
@@ -354,4 +351,10 @@ section{
 }
 .cards section:nth-child(3){
     order: 2;
+}
+.cards section h2{
+    color: #03045E;
+}
+.cards section p{
+    color: #03045E;
 }
