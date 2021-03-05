@@ -55,4 +55,8 @@
     .cards section:nth-child(3){
         flex-direction:column;
     }
+    .cards img{
+        max-width: 350px;
+        margin-top: 15px;
+    }
 }
