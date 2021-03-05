@@ -87,10 +87,14 @@
     section{
         display:flex;
         flex-direction: row;
-        width: 700px;
+        width: 90%;
     }
     .cards section:nth-child(3){
         flex-direction:row-reverse;
+        flex-wrap: nowrap;
+    }
+    .cards img{
+        margin-top: 0px;
     }
 }
 
