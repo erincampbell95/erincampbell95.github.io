@@ -1,4 +1,4 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id==5604473&appid=b1c4009595630e2651d3712160a3c1f6';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b1c4009595630e2651d3712160a3c1f6';
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -12,3 +12,4 @@ fetch(apiURL)
 
     document.getElementById('current-temp').textContent = jsObject.main.temp;
   });
+
