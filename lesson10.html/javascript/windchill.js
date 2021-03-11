@@ -1,4 +1,4 @@
-var temperature = document.getElementById('temperature').innerHTML;
+var temperature = document.getElementById('current-temp').innerHTML;
 var windSpeed = document.getElementById("windSpeed").innerHTML;
 
 let f;

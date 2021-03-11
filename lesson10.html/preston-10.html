@@ -55,11 +55,11 @@
                 <h3 class="hero-header">
                     Weather Summary
                 </h3>
-                <p>Currently: <span id="current">Sunny</span></p> 
-                <p>High: <span id="temperature">76</span>°F</p>
+                <p>Currently: <span id="current"></span></p> 
+                <p>High: <span id="current-temp"></span>°F</p>
                 <p>Windchill: <span id="windChill"></span>°F</p> 
-                <p>Humidity: <span id="humidity">68</span>%</p>
-                <p>Windspeed: <span id="windSpeed">5</span>mph</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Windspeed: <span id="windSpeed"></span>mph</p>
             </section>
         </div>
         <div class="table">
@@ -68,54 +68,54 @@
             </h3>
             <table>
                 <tr>
-                    <th>
+                    <th id="day1">
                        Monday
                     </th>
-                    <th>
+                    <th id="day2">
                         Tuesday
                     </th>
-                    <th>
+                    <th id="day3">
                         Wednesday
                     </th>
-                    <th>
+                    <th id="day4">
                         Thursday
                     </th>
-                    <th>
+                    <th id="day5">
                         Friday
                     </th>
                 </tr>
                 <tr>
                     <td>
-                        <img src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                        <img id="img1" src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="weatherimg" height="75" width="75">
                     </td>
                     <td>
-                        <img src="images/placeholder.jpg" data-src="images/sunny_75.png" alt="sunny" height="75" width="75">
+                        <img id="img2" src="images/placeholder.jpg" data-src="images/sunny_75.png" alt="weatherimg" height="75" width="75">
                     </td>
                     <td>
-                        <img src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                        <img id="img3" src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="weatherimg" height="75" width="75">
                     </td>
                     <td>
-                        <img src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="cloudy" height="75" width="75">
+                        <img id="img4" src="images/placeholder.jpg" data-src="images/cloudy_75.png" alt="weatherimg" height="75" width="75">
                     </td>
                     <td>
-                        <img src="images/placeholder.jpg" data-src="images/sunny_75.png" alt="cloudy" height="75" width="75">
+                        <img id="img5" src="images/placeholder.jpg" data-src="images/sunny_75.png" alt="weatherimg" height="75" width="75">
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        76°F
+                    <td id="temp1">
+                        °F
                     </td>
-                    <td>
-                        84°F
+                    <td id="temp2">
+                        °F
                     </td>
-                    <td>
-                        73°F
+                    <td id="temp3">
+                        °F
                     </td>
-                    <td>
-                        75°F
+                    <td id="temp4">
+                        °F
                     </td>
-                    <td>
-                        82°F
+                    <td id="temp5">
+                        °F
                     </td>
                 </tr>
             </table>
@@ -190,6 +190,7 @@
     <script src="javascript/banner.js"></script>
     <script src="javascript/windchill.js"></script>
     <script src="javascript/imageHandling.js"></script>
+    <script src="javascript/forecast.js"></script>
     
 </body>
 </html>
