@@ -169,6 +169,9 @@ footer a {
     padding: 0;
 	box-shadow: 0 0 50px #111;
     opacity: .8;
+    display: block;
+    margin: auto;
+    width: auto;
 }
 .weather-stats p {
     color: #ffffff;
