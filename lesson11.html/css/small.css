@@ -25,6 +25,9 @@ body{
     border-radius: 5px;
     color: #03045E;
 }
+.content-1 p{
+    line-height: 25px;
+}
 .content-2 {
     margin-top: 30px;
     margin: 20px auto;
