@@ -388,8 +388,8 @@ section{
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .townEvents p:nth-last-child(){
-    margin-bottom: 10px;
+  .townEvents p:last-child{
+    margin-bottom: 20px;
   }
   .townEvents hr {
     background-color: #05386b;
