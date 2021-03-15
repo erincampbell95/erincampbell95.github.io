@@ -376,3 +376,25 @@ section{
 .cards h2{
     margin-bottom: 0px;
 }
+.townEvents {
+    box-shadow: 5px 5px #05386b;
+    margin: 15px auto;
+    text-align: center;
+    width: 50%;
+  }
+  .townEvents p {
+    color: #05386b;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .townEvents hr {
+    background-color: #05386b;
+    color: #05386b;
+    height: 1.5px;
+    width: 85%;
+  }
+  .townEvents h3{
+      margin-top: 25px;
+      margin-bottom: 0px;
+  }
