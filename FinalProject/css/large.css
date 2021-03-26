@@ -1,3 +1,10 @@
 @media only screen and (min-width: 769px) {
-    
+    .logo-img{
+        max-width: 125px;
+        max-height: 125px;
+    }
+    h1{
+        font-size: 80px;
+    }
+   
 }
