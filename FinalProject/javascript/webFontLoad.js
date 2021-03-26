@@ -1,8 +1,8 @@
 WebFont.load({
     google: {
       families: [
-         'Roboto',
-         'Bodoni Moda'
+         'Mukta',
+         'Bebas Neue'
       ]
     }
   });
