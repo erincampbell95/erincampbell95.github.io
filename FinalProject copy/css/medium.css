@@ -1,4 +1,4 @@
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 581px) {
     .logo-img{
         max-width: 100px;
         max-height: 100px;
@@ -16,7 +16,6 @@
     .navigation{
         display:flex;
         flex-direction: row;
-        justify-content: space-evenly;
         justify-content: flex-end;
         align-self: center;
         list-style-type: none; 
@@ -26,9 +25,11 @@
         border-top: none;
     }
     nav {
-        text-align: center;
         padding:15px;
         width: auto;
+    }
+    nav ul li a{
+        border-top: none;
     }
 }
     

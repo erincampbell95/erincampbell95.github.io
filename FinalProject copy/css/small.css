@@ -3,19 +3,18 @@ body{
     font-size: .9em;
     max-width: 100%;
     margin: 0px auto;
-    text-align: left;
     font-family: 'Mukta', sans-serif;
 }
 .container{
     background-color: #ffffff;
-    display:flex;
-    padding: 0px;
+    max-width:100%;
+    display: flex;
 }
 .main-header{
     display: flex;
     justify-content: flex-start;
     align-self: center;
-    max-width: 100%;
+    width: 100%;
 }
 .logo-img{
     max-width: 50px;
@@ -24,42 +23,51 @@ body{
     align-self: center;
     margin-left: 20px;
     margin-right: 20px;
+    max-width: 25%;
 }
 h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     color: #1D3557;
-    max-width: 100%;
+    width: auto;
+    max-width: 25%;
+}
+.navigation{
+    margin-top: 10px;
 }
 .navigation li:first-child {
     color: #1D3557;
     display:block;
-    font-size:30px;
-    display:flex;
-    justify-content: flex-end;
+    font-size:50px;
+    margin-bottom: 3px;
 }
 .navigation li:first-child a {
     text-decoration: none;
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
 }
 .responsive li{
     display: flex;
 }
 nav ul { 
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    align-items:center;
     flex-direction: column;
 	list-style-type: none;
-	margin: 0;
+	margin: 10px;
 	padding: 0;
     overflow: hidden;
 }
 nav ul li a {
     display: flex;
     justify-content: flex-end;
+    justify-content: space-evenly;
     margin: auto;
-	text-align: center;
-	text-decoration: none;
-    font-size: 0.95rem;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
     padding: .8rem 2%;
     border-top: 1px solid rgba(150, 155, 202, 0.349);
 }
@@ -72,6 +80,7 @@ li a{
     text-decoration: none;
     display:flex;
     justify-content: flex-end;
+    justify-content: space-evenly;
     align-content: center;
 }
 li a:hover{
