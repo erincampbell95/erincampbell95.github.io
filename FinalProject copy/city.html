@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestone</title>
+    <meta name="description" content="website for the local town of Firestone Chamber of Commerce">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@300&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header class="container">
+        <div class="main-header">
+            <img class="logo-img" src="images/logo-img.png" alt="Chamber of Commerce Logo image"> 
+        <h1>
+            Firestone
+        </h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current" href="city.html">City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="social">
+        <a href="https://www.facebook.com/"><img src="images/facebook-icon.png" alt="Facebook icon" height="20" width="20"/></a>
+        <a href="https://www.pinterest.com/"><img src="images/pinterest-icon.png" alt="Pinterest icon" height="20" width="20"/></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram-icon.png" alt="Instagram icon" height="20" width="20"/></a>
+    </div>
+<footer>
+    <div> &copy; <span id="currentYear"></span> Erin Campbell | Firestone, Colorado</div>
+    <div id="todayDate"></div>  
+    <div>API used from <a href="https://openweathermap.org/">OpenWeather</a></div>
+</footer>
+
+<script src="javascript/navigate.js"></script>
+<script src="javascript/currentDate.js"></script>
+<script src="javascript/currentYear.js"></script>
+<script src="javascript/imageHandling.js"></script>
+<script src="javascript/webFontLoad.js"></script>
+
+</body>
+</html>

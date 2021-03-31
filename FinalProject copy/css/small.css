@@ -91,7 +91,6 @@ li a:hover{
     font-weight: bold;
 }
 .social{
-    background-color: #ffffff;
     padding: 10px;
     display:flex;
     justify-content: flex-end;
