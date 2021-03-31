@@ -2,45 +2,45 @@
     "local-businesses": [
         {
             "name": "Bash's Pizza",
-            "logo": "",
+            "logo": "images/bash-logo.png",
             "contact": "(303) 833-4940",
             "website": "https://bashsrestaurant.com/"            
         },
         {
             "name": "Peel Handcrafted Pizza",
-            "logo": "",
+            "logo": "images/peel-logo.webp",
             "contact": "(720) 627-5382",
             "website": "https://www.peelhandcraftedpizza.com/"            
         },
         {
             "name": "Georgia Boys",
-            "logo": "",
+            "logo": "images/georgia-boys-logo.png",
             "contact": "(303) 833-3140",
             "website": "https://www.georgiaboys.com/"            
         },
         {
             "name": "A Cake Come True",
-            "logo": "",
+            "logo": "images/cake-come-true-logo.png",
             "contact": "(303) 834-8317",
             "website": "https://www.acakecometrue.com/"            
         },
         {
             "name": "E.L.F. Grill Everybody Loves Food",
-            "logo": "",
+            "logo": "images/elf-logo.png",
             "contact": "720.379.5690",
             "website": "http://elfgrill.com/"            
+        },
+        {
+            "name": "Butcher and The Blonde",
+            "logo": "images/butcher-n-blonde-logo.png",
+            "contact": "(720) 772-0196",
+            "website": "https://butcher-the-blonde.business.site/"            
         },
         {
             "name": "Wah Wok",
             "logo": "",
             "contact": "(303) 833-5816",
             "website": "https://wahwoktogo.com/"            
-        },
-        {
-            "name": "Butcher and The Blonde",
-            "logo": "",
-            "contact": "(720) 772-0196",
-            "website": "https://butcher-the-blonde.business.site/"            
         },
         {
             "name": "Pepper's Fireside Grill",
