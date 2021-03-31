@@ -21,9 +21,9 @@ fetch(requestURL)
       p2.innerHTML = local-business[i].website;
 
       card.appendChild(h2);
+      card.appendChild(image);
       card.appendChild(p1);
       card.appendChild(p2);
-      card.appendChild(image);
 
       document.querySelector('div.cards').appendChild(card);
     }

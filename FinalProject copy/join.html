@@ -56,24 +56,23 @@
         <form>
             <fieldset>
                 <legend class="firstfield">Your Information</legend>
-                    <label class="top">First Name*<input type="text" name="fname" min="3" placeholder="Jon" required></label>
-                    <label class="top">Last Name*<input type="text" name="lname" min="3" placeholder="Doe" required></label>
+                    <label class="top">First Name*<input type="text" name="fname" placeholder="Jon" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
                     <label class="top">Title<input type="text" name="title"></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                     <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
             </fieldset>
             <fieldset>
                 <legend class="secondfield">Business Information</legend>
-                    <label class="top">Business Name<input type="text" name="businessname" min="3" required></label>
-                    <label class="top">Business Address<input type="text" name="businessaddress" min="3"></label>
+                    <label class="top">Business Name<input type="text" name="businessname" required></label>
+                    <label class="top">Business Address<input type="text" name="businessaddress"></label>
                     <label class="top">Business Website<input type="url" name="website" placeholder="http://"></label>
                     <label class="top">Business Description<input type="text" name="description"></label>
             </fieldset>
             <fieldset>
                 <legend class="thirdfireld">Membership Level</legend>
-                    <label class="top">Membership Level<input list="level" type="list" name="membershiplevel"></label>
+                    <label class="top">Membership Level<input list="membershiplevel" name="membershiplevel" placeholder="Please Select"></label>
                         <datalist id="membershiplevel">
-                            <option value="">Please Select</option>
                             <option value="nonprofit">Non Profit ($100)</option>
                             <option value="bronze">Bronze ($200)</option>
                             <option value="silver">Silver ($400)</option>
