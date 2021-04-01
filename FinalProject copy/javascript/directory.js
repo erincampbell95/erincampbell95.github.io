@@ -1,4 +1,4 @@
-const requestURL = '.json/local-business.json';
+const requestURL = '.json/localBusiness.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -6,7 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  
-    const localBusiness = jsonObject['local-business'];
+    const localBusiness = jsonObject['localBusiness'];
     for (let i = 0; i < local-business.length; i++ ) {
 
       let card = document.createElement('section');
@@ -15,10 +15,10 @@ fetch(requestURL)
       let p2 = document.createElement('p');
       let image = document.createElement('img');
 
-      h2.textContent = local-business[i].name + (i+1);
-      image.setAttribute('src', local-business[i].imageurl);
-      p1.innerHTML = local-business[i].contact;
-      p2.innerHTML = local-business[i].website;
+      h2.textContent = localBusiness[i].name + (i+1);
+      image.setAttribute('src', localBusiness[i].imageurl);
+      p1.innerHTML = localBusiness[i].contact;
+      p2.innerHTML = localBusiness[i].website;
 
       card.appendChild(h2);
       card.appendChild(image);
