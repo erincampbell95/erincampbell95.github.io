@@ -6,5 +6,26 @@
     h1{
         font-size: 80px;
     }
+    .section-1{
+        display:flex;
+        flex-direction: row;
+    }
+    .section-2{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #events-list{
+        grid-column: 0/2;
+        grid-row: 0/1;
+    }
+    #description{
+        grid-column: 0/2;
+        grid-row: 1/2;
+    }
+    #forecast{
+        grid-column: 2/3;
+        grid-row:0/2;
+    }
    
 }

@@ -114,3 +114,73 @@ footer a{
 footer a:hover{
     font-weight: bold;
 }
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #e63946;
+    font-size: 30px;
+    margin-left:30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #457b9d;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.section-1{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+}
+.section-1 img{
+    width:80%;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.section-1 h2{
+    margin-left: 10px;
+}
+.section-1 a{
+    text-decoration: none;
+    color: #457b9d;
+}
+section div{
+    background-color: #ffffff;
+    margin:30px;
+    box-shadow: 5px 5px #a8dadc;
+    border: 1px solid #a8dadc;
+}
+p{
+    color: #1D3557;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px;
+}
+p.contact{
+    margin-left: 10px;
+}
+.section-2{
+    display:grid;
+    grid-template-columns: 1fr;
+}
+dl{
+    font-size: 20px;
+}
+dt{
+    color: #457b9d;
+    margin-left: 10px;
+    font-weight: bold;
+}
+dd{
+    color: #1D3557; 
+}
+.forecast img{
+    float: right;
+}
+section.forecast{
+    background-color: #ffffff;
+}
+

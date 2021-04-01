@@ -31,5 +31,10 @@
     nav ul li a{
         border-top: none;
     }
+    .section-2{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
 }
     
