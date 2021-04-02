@@ -62,6 +62,9 @@
         padding: 10px;
         margin: 20px;
     }
-    
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
     

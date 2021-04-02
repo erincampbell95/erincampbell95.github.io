@@ -1,8 +1,8 @@
 WebFont.load({
     google: {
       families: [
-         'Mukta',
-         'Bebas Neue'
+        'Bebas Neue',
+         'Mukta'
       ]
     }
   });
