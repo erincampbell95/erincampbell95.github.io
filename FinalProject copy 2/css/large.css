@@ -1,0 +1,54 @@
+@media only screen and (min-width: 769px) {
+    .logo-img{
+        max-width: 125px;
+        max-height: 125px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .section-1{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-1 div{
+        max-width:30%;
+    }
+    .section-2{
+        display:flex;
+        justify-content: space-between;
+    }
+    .forecast{
+        width:400px;
+    }
+    .events{
+        width: 900px;
+    }
+    .thanks p{
+        display: flex;
+        justify-content: center;
+        padding:50px;
+        margin:50px;
+        text-align: center;
+        width: 85%
+    }
+    iframe{
+        width: 94%;
+    }
+    .contact-section{
+        display:flex;
+        flex-direction: row;
+    }
+    table th{
+        font-size: 20px;
+    }
+    table td{
+        font-size: 18px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .dem{
+        display: flex;
+        flex-direction: row;
+    }
+}

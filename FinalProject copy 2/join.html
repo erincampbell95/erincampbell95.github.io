@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firestone</title>
+    <meta name="description" content="website for the local town of Firestone Chamber of Commerce">
+    <link rel="shortcut icon" href="favicon.ico/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@300&display=swap">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+
+    <header class="container">
+        <div class="main-header">
+            <img class="logo-img" src="images/logo-img.png" alt="Chamber of Commerce Logo image"> 
+        <h1>
+            Firestone
+        </h1>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a class="current" href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="join">
+       <div class="join-req">
+            <section>
+                <h2>
+                    Board, Commission & Committee Appointments
+                </h2>
+                <p>
+                    The Town of Firestone's boards, commissions and committees have specific responsibilities as detailed in the Town municipal code, code of ordinances and the enacting resolution. Each board and commission makes recommendations to the Board of Trustees and staff on matters related to its area of responsibility.  Appointments for boards, commissions or committees are made in even years with varying terms depending on the group. 
+                </p>
+            </section>
+            <section>
+                <h2>
+                    Requirements
+                </h2>
+                <p>
+                    Becoming a member of a board, commission or committee is a great way to become active in the decision-making process of Town government. Serving also offers residents an opportunity to provide expertise in areas of individual interest. All positions are voluntary and vary in length of terms and time commitments.<br>
+                    All appointees to Town of Firestone boards, commissions and committees must be residents of the Town. Applicants for final decision making boards cannot have financial interest in a contract with the Town. All appointed board, commission and committee members adhere to a code of conduct. All appointments are made at the discretion of the Town Board of Trustees.
+                </p>
+            </section>
+       </div>
+       <section>
+            <h2>
+                Volunteer to Serve on a Board, Commission or Committee
+            </h2>
+            <p>
+                In the event of an opening, vacant positions are announced and applications may be submitted. Anyone interested in applying or with questions may contact the Town Clerk’s office at 999-999-9999.
+            </p>
+        </section>
+
+        <section class="section-join-form">
+            <form class="join-form" method="get" action="thanks.html">
+                <fieldset>
+                    <legend class="firstfield">Your Information</legend>
+                        <label class="top">First Name*<input type="text" name="fname" placeholder="Jon" required></label>
+                        <label class="top">Last Name*<input type="text" name="lname" placeholder="Doe" required></label>
+                        <label class="top">Title<input type="text" name="title"></label>
+                        <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                </fieldset>
+                <fieldset>
+                    <legend class="secondfield">Business Information</legend>
+                        <label class="top">Business Name<input type="text" name="businessname" required></label>
+                        <label class="top">Business Address<input type="text" name="businessaddress"></label>
+                        <label class="top">Business Website<input type="url" name="website" placeholder="http://"></label>
+                        <label class="top">Business Description<input type="text" name="description"></label>
+                </fieldset>
+                <fieldset>
+                    <legend class="thirdfield">Membership Level</legend>
+                        <label class="top">Membership Level<input list="membershiplevel" name="membershiplevel" placeholder="Please Select"></label>
+                            <datalist id="membershiplevel">
+                                <option value="nonprofit">Non Profit ($100)</option>
+                                <option value="bronze">Bronze ($200)</option>
+                                <option value="silver">Silver ($400)</option>
+                                <option value="gold">Gold ($1000)</option>
+                            </datalist>
+                    <input type="submit" value="Submit" class="submitBtn">        
+                </fieldset>
+               
+            </form>
+        </section>
+        
+        <div class="membership">
+            <h2>
+                Membership Level Key
+            </h2>
+            <p>
+                <b>Non-profit</b> ($100) <br>Membership includes: social media posts<br> 
+                <b>Bronze</b> ($200) <br>Membership includes:luncheon tickets<br> 
+                <b>Silver</b> ($400) <br> Membership includes: business trainings<br> 
+                <b>Gold</b> ($1000) <br>Membership includes: sponsorships with levels of advertising
+            </p>
+        </div>
+
+
+    </main>
+  
+<footer>
+    <div> &copy; <span id="currentYear"></span> Erin Campbell | Firestone, Colorado</div>
+    <div id="todayDate"></div>  
+    <div>API used from <a href="https://openweathermap.org/">OpenWeather</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    <div class="social">
+        <a href="https://www.facebook.com/"><img src="images/facebook_icon.png" alt="Facebook icon" height="20" width="20"/></a>
+        <a href="https://www.pinterest.com/"><img src="images/pinterest_icon.png" alt="Pinterest icon" height="20" width="20"/></a>
+        <a href="https://www.instagram.com/"><img src="images/instagram_icon.png" alt="Instagram icon" height="20" width="20"/></a>
+    </div>
+</footer>
+
+<script src="javascript/navigate.js"></script>
+<script src="javascript/currentDate.js"></script>
+<script src="javascript/currentYear.js"></script>
+<script src="javascript/imageHandling.js"></script>
+<script src="javascript/webFontLoad.js"></script>
+
+</body>
+</html>
